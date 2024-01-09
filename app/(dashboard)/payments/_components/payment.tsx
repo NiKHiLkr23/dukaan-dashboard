@@ -247,11 +247,11 @@ export function Payment({
             </div>
 
             <div className="flex items-center justify-between gap-8 mx-5">
-              <div className="bg-white rounded-xl p-5 w-1/2">
+              <div className="bg-white rounded-xl p-5 w-1/2 shadow-sm  ">
                 <p className="text-gray-500 pb-5">Online orders</p>
                 <p className="text-black text-3xl">{orders.length}</p>
               </div>
-              <div className="bg-white rounded-xl p-5 w-1/2">
+              <div className="bg-white rounded-xl p-5 w-1/2 shadow-sm  ">
                 <p className="text-gray-500 pb-5">Amount received</p>
                 <p className="text-black text-3xl">
                   ₹{totalOrderAmount.toFixed(2)}
